@@ -1,5 +1,7 @@
 #### UNC HPM 883 2025 Spring
 
+## HPM 883: Advanced Quantitative Methods in Health Policy and Management
+
 Instructors
 
 *  Sean Yuji Sylvia ([sean.sylvia@unc.edu](sean.sylvia@unc.edu)), Department of Health Policy and Management, UNC  
@@ -9,10 +11,14 @@ TAs
 
 *  xxx ([xxx@email.unc.edu](xxx@email.unc.edu)), Department of xxx, UNC  
 
-Canvas
+Class Websites
 
 * Canvas page [here](https://canvas.unc.edu/)
+* GitHub Classroom  [here](https://canvas.unc.edu/)
 
+Slack
+
+We have a Slack workspace for the course which you should use to communicate both with us as instructors, and with your fellow students. You can sign up via this link: xxx
 
 
 This repository contains the class materials for the [HPM 883 - Analysis of Categorical Data]([https://canvas.unc.edu/](https://canvas.unc.edu/)) course  taught in Spring 2025 by Sean Yuji Sylvia and Sudhanshu (Ashu) Handa.  
@@ -24,31 +30,36 @@ This repository contains the class materials for the [HPM 883 - Analysis of Cate
 | 1  | Mo 10 Jan  | SS         | [Overview and introduction to Experimental Design](#1-overview-and-introduction-to-Experimental-Design) |
 
 
+
 ### Overview
 
-This course is an introduction to the analysis of categorical data using maximum likelihood and other non-linear techniques and specification tests. Topics include models in which the dependent variable is not continuous, including logit, probit, censored data, two-part, and count models. Class Notes: Students must have passed HPM 881 and HPM/PLCY 882 to enroll. Instruction Mode: in person on campus learners
+HPM 883 is an advanced graduate-level course designed to equip PhD students in the Health Policy and Management program with sophisticated quantitative research skills. This course represents the third installment in the quantitative methods sequence, building on the foundational knowledge acquired in previous courses.
+
+Throughout the term, students will delve into experimental methods pertinent to health services research, gaining a comprehensive understanding of how to design, conduct, and analyze experiments within this field. The course will also provide a thorough introduction to both supervised and unsupervised machine learning techniques, as well as explore the burgeoning domain of causal machine learning.
+
+To facilitate a deep and practical understanding of these complex topics, HPM 883 employs a "flipped" classroom structure. Students will be expected to engage with recorded lectures and complete assigned readings at home. Classroom time will then be dedicated to hands-on data analysis using the R programming language, allowing for immediate application of theoretical concepts to real-world datasets.
+
+This interactive approach not only fosters a collaborative learning environment but also ensures that students are well-prepared to employ advanced quantitative methods in their own research. By the end of the course, participants will have developed a robust skill set, enabling them to confidently tackle intricate analytical challenges in health policy and management research.
+
 
 ### Objectives
 
 This course aims to provide an 
 
-## Lectures and classes
+## Course Format
 
-- Lectures: Lectures will be held between xxx each day. 
+Flipped classroom – Recorded lectures and readings to be completed outside of class; in-class sessions focused on practical data analysis.
 
-- Classes: Students will be assigned to four classes, which will be held between 2pm-3.30pm and 3.30pm-5pm each day
-    
 See the [Canvas site for HPM883](https://canvas.unc.edu/) for class lists, Zoom links, and announcements.
 
 ### Prerequisites
 
-Prerequisites, HPM 881 and 882; permission of the instructor for students lacking the prerequisites.
+Successful completion of prior courses (HPM 881, HPM 882) in the quantitative methods sequence or permission from the instructor.
 
 ### Preparing for the course
 
 You will need R for this course. You will need to download and install 
 - **Git**: [Install Git](https://git-scm.com/downloads)
-- **Anaconda or Miniconda**: [Install Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - **VS Code**: [Install VS Code](https://code.visualstudio.com/)
 - **Quarto**: [Install Quarto](https://quarto.org/docs/get-started/)
 - **R**: [Install R](https://cran.r-project.org/)
@@ -56,7 +67,7 @@ You will need R for this course. You will need to download and install
 
 **Detailed instructions can also be found [here](https://hpm883.github.io/instructions) for installing the tools you need and working with the lab materials.**
 
-If you are not already familiar with R, we strongly encourage you to attempt to become familiar before the start of the course.  That way, you will spend much less time become familiar with the tools, and be able to focus more on the methods.  The following links provide basic introductions to R, which you can study at your own pace before the course begins.
+Proficiency in R is required. Students should ensure they have access to R and are familiar with its basic functionalities prior to the start of the course. The following links provide basic introductions to R, which you can study at your own pace before the course begins.
 
 * [*An Introduction to R*](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf).
 * Data Camp [R tutorials](https://www.datacamp.com/courses/free-introduction-to-r).
@@ -100,68 +111,211 @@ The following are supplemental texts which you may also find useful:
 
 ### Assessment
 
-#### Weekly lab exercises
+Performance will be assessed through a combination of homework assignments, in-class exercises, a midterm project, and a final research paper wherein students apply the techniques learned to a health services research question of their choice.
 
-These are not assessed, but will form the practical materials for each week's labs.  See these instructions for how to access and work with each day's exercise.
 
-See [https://hpm883.github.io/instructions](https://hpm883.github.io/instructions) for detailed instructions on obtaining and working with each day's lab materials.
+### Evaluation Method
 
-#### Mid-term
+| Component                                              | % of Grade |
+|--------------------------------------------------------|------------|
+| Combined Quizzes (Before and After Class)              | 10%        |
+| Homework Assignments                                   | 25%        |
+| In-Class Exercises                                     | 10%        |
+| Midterm Project                                        | 25%        |
+| Final Research Paper                                   | 30%        |
+| **Total**                                              | 100%       |
 
-The midterm will be released after the lecture on xxx and will be due at xxx. <!--- The [mid-term is available here](https://hpm883.github.io/midterm-2025/).--->
+---
 
-#### Exam
+#### Assessment Details
 
-The final exam will be set on xxx.  
+ **Quizzes** (10% of Grade)
+- **Objective:** To assess students’ understanding of assigned readings, lecture material, and knowledge retention.
+- **Structure**:
+  - **Before Class Quizzes:** Focus on assigned readings and lecture preparation.
+  - **After Class Quizzes:** Test comprehension of lecture material and identify areas for clarification.
+- **Format:** Administered via GitHub Classroom.
+- **Grading Criteria**:
+  - Consistent effort.
+  - Demonstrated understanding of key concepts.
 
-<!---[The exam is here](https://hpm883.github.io/finalexam/).---> 
+---
 
-#### Slack
+ **Homework Assignments** (25% of Grade)
+- **Objective:** To reinforce foundational concepts in **Experimental Design**, **Supervised/Unsupervised Machine Learning**, and **Causal Machine Learning**.
+- **Structure**:
+  - Includes replication exercises and analysis using simulated data.
+  - Assignments are modeled on the HPM PhD comprehensive exam format to provide qualifying exam preparation.
+- **Submission Format:** Via GitHub Classroom.
+- **Grading Criteria**:
+  - Accuracy and completeness of analysis.
+  - Demonstrated understanding of class concepts.
+  - Clarity in presenting results.
 
-We have a Slack workspace for the course which you should use to communicate both with us as instructors, and with your fellow students. You can sign up via this link: xxx
+---
+
+#### **In-Class Exercises** (10% of Grade)
+- **Objective:** To provide hands-on practice with theoretical concepts in a collaborative learning environment.
+- **Structure**:
+  - Short exercises conducted during lab sessions focusing on problem-solving and practical applications.
+- **Grading Criteria**:
+  - Participation and effort.
+  - Accuracy and thoughtfulness in responses.
+
+---
+
+#### **Midterm Project** (25% of Grade)
+- **Objective:** A practical application of methods covered in the first half of the course.
+- **Structure**:
+  - Students will replicate a published study or analyze simulated data.
+  - Emphasis on applying techniques in **Experiment Design** and **Supervised Machine Learning**.
+  - Deliverables include a written report detailing methodology, results, and conclusions.
+- **Grading Criteria**:
+  - Depth of analysis and correct application of methods.
+  - Clarity and organization in the written report.
+  - Originality and engagement with the assigned task.
+
+---
+
+#### **Final Research Paper** (30% of Grade)
+- **Objective:** To apply the techniques learned throughout the course to a health services research question of the student’s choice.
+- **Structure**:
+  - Students will identify a health services research topic, apply methods learned from class, and write a comprehensive research paper.
+  - The paper must include:
+    - Introduction and research question.
+    - Methodology and data description.
+    - Analysis and results.
+    - Discussion and conclusion.
+  - Students are encouraged to select datasets relevant to their research interests, with instructor approval.
+- **Grading Criteria**:
+  - Creativity and relevance of the research question.
+  - Correct and thorough application of methods.
+  - Quality and clarity of writing.
+  - Depth of discussion and interpretation of results.
+
+### **Pre-Module: Computer Setup**
+
+To ensure a seamless learning experience, please complete the following setup tasks before the course begins. This setup will allow you to effectively participate in in-class exercises and complete after-class assignments.
+
+---
+
+#### **Step 1: GitHub Codespaces Setup (for After-Class Assignments)**
+1. **Create a GitHub Account** (if you don’t already have one):
+   - Sign up for a free account at [GitHub](https://github.com).
+2. **Enable GitHub Codespaces**:
+   - Codespaces is a cloud-based development environment that you’ll use for assignments. To enable it:
+     - Navigate to your GitHub repository dashboard.
+     - Click on the “Codespaces” tab and follow the prompts to activate it.
+3. **Clone the Course Repository**:
+   - You will receive a link to the course GitHub repository. Clone this repository into your Codespaces environment by following these steps:
+     - Open the repository link.
+     - Click the green “Code” button and select “Open with Codespaces.”
+4. **Verify the Environment**:
+   - Use template we provided in class
+---
+
+#### **Step 2: Jupyter Notebook Setup (for In-Class Exercises)**
+1. **Install Jupyter Notebook**:
+   - For in-class exercise, ensure you have Jupyter Notebook installed:
+     - Install Python 3.x from [Python.org](https://www.python.org).
+     - Use pip to install Jupyter by running the following command in your terminal:
+       ```
+       pip install notebook
+       ```
+2. **Test Jupyter Notebook**:
+   - Open Jupyter Notebook to ensure it’s functioning correctly:
+     - In your terminal, run:
+       ```
+       jupyter notebook
+       ```
+     - This command will open Jupyter in your default web browser.
+3. **Load Sample Notebooks**:
+   - Download the sample notebook provided in the course repository to familiarize yourself with the interface.
+
+---
+
+#### **Step 3: Recommended Software**
+- **Text Editor** (optional but helpful):
+  - Visual Studio Code (VS Code) with the Python extension is recommended for working on Python scripts or Jupyter notebooks locally.
+  - Download it [here](https://code.visualstudio.com).
+- **Data Visualization Tools**:
+  - Ensure your environment supports plotting libraries like Matplotlib and Seaborn for visualizing experimental results.
+
+---
+
+#### **Step 4: Verification and Support**
+- **Test Your Setup**:
+  - Complete the introductory lab provided in the course repository to verify your environment.
+- **Support**:
+  - If you encounter issues, refer to the provided setup guide in the course repository or reach out to the course instructor/TA for assistance.
+
+---
+
+This setup will allow you to:
+- Use **Codespaces** for submitting after-class assignments.
+- Engage effectively with **Jupyter Notebook** during in-class exercises.
+
 
 ### Detailed Course Schedule
 
 ***
 
-#### 1. Overview and introduction to Experimental Design
-
-We will use this session to get to know the range of interests and experience students bring to the class, as well as to survey the causal inference approaches to be covered. We will also discuss and demonstrate the R software.
-
-##### Resources
-
-* [Lecture Notes Part 1](lecturenotes/ME314_day1.1.pdf)
-* [Lecture Video](lecturevideo/HPM883_week1.wav)
-
-* [Lab 1 materials](https://hpm883.github.io/assignment01/)
-
-* Lab 1 solution [as RMarkdown](https://hpm883.github.io/solutions/hpm883_assignment1_solution.Rmd) or [as HTML](https://hpm883.github.io/solutions/hpm883_assignment1_solution.html)
+#### Module 1. Overview and Introduction to Experimental Design
 
 
-##### Required reading
+#### Module Overview
+This module introduces the foundational principles of experimental design, focusing on its role in causal inference within health services research. Key topics include understanding the structure of experiments, the importance of proper design, and hands-on application using computational tools.
 
-* James et al (2021), Chapters 1--2. Note: The book is available [here](https://www.statlearning.com).
-* Garrett Grolemund and Hadley Wickham (2016) _R for Data Science_, O'Reilly Media, Chapters 1-3. Note: Online version is available from the authors' page [here](http://r4ds.had.co.nz/index.html).
-* [*An Introduction to R*](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf).
-* Downloading and installing [RStudio](http://www.rstudio.com) and [R](https://cran.r-project.org) on your computer.
-* Data Camp [R tutorials](https://www.datacamp.com/courses/free-introduction-to-r).
-* Data Camp [R Markdown tutorials](https://www.datacamp.com/courses/reporting-with-r-markdown), first chapter.
-* [R Codeschool](http://tryr.codeschool.com/).
+---
 
+#### Learning Objectives
+- Define the key components of experimental design and their significance in research.
+- Explain the role of experimental design in establishing causal relationships.
+- Apply experimental design principles using Jupyter Notebook.
 
-##### Recommended Reading
+---
 
-* Patrick Burns, 2011. _The R Inferno_.  Available [here](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf).
+#### Pre-Class Preparation
+- **Lecture Videos**:
+  - [Lecture Video](lecturevideo/video1.wav)
+  - Introduction to experimental design and causal inference.
+  - Overview of experimental design structures and their applications.
+- **Readings**:
+  - [Lecture Notes Part 1](lecturenotes/HPM883_day1.pdf)
+  - Experimental and Quasi-Experimental Designs" by Shadish, Cook, and Campbell. (Available [here](http://r4ds.had.co.nz/index.html))
+- **Pre-Class Quiz**:
+  - Administered via GitHub Classroom, covering key concepts from videos and readings.
 
+---
 
-***
+#### In-Class Sessions
+- **Brief Review**:
+  - Address common questions and issues identified from the pre-class quiz.
+- **Short Lecture**:
+  - Highlight key concepts and expand on the role of experimental design in research.
+- **Hands-On Exercise**:
+  - Perform basic experimental designs on a provided dataset using Jupyter Notebook.
+  - Analyze the effects of different experimental structures on data outcomes.
+- **Group Discussion**:
+  - Discuss the challenges and trade-offs in designing experiments for health services research.
 
- Lafferty "Topic Models." In _Text Mining: Classification, clustering, and applications_, A. Srivastava and M. Sahami (eds.), pp 71-94, 2009. Chapter available [here](http://www.cs.columbia.edu/~blei/papers/BleiLafferty2009.pdf).
-* Blei, David M., and John D. Lafferty. "Dynamic topic models." In _Proceedings of the 23rd international conference on machine learning_, pp. 113-120. ACM, 2006.
-* Mimno, D. (April 2012). "Computational Historiography: Data Mining in a Century of Classics Journals." _Journal on Computing and Cultural Heritage_, 5 (1).
-* Lesmeister Chapter 12.
+---
 
-***
+#### Post-Class Assignments
+- **Quiz**:
+  - Follow-up quiz on experimental design concepts, reinforcing in-class content.
+- **Problem Set**:
+  - Replicate a simple experimental design using a provided dataset.
+  - Write a brief explanation of the design choices and their implications.
+- **Recommended Reading**:
+  - Lafferty, "Topic Models" in *Text Mining: Classification, Clustering, and Applications* (2009). (Available [here](http://www.cs.columbia.edu/~blei/papers/BleiLafferty2009.pdf))
+  - Mimno, D. "Computational Historiography" (2012).
+
+---
+
+#### Additional Resources
+- Tutorials on experimental design principles.
+- Case studies of experimental designs in health services research.
 
 #### 12. Data from the web
 
