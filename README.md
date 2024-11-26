@@ -1,7 +1,5 @@
 #### UNC HPM 883 2025 Spring
 
-## HPM 883: Advanced Quantitative Methods in Health Policy and Management
-
 Instructors
 
 *  Sean Yuji Sylvia ([sean.sylvia@unc.edu](sean.sylvia@unc.edu)), Department of Health Policy and Management, UNC  
@@ -23,7 +21,7 @@ We have a Slack workspace for the course which you should use to communicate bot
 
 This repository contains the class materials for the [HPM 883 - Analysis of Categorical Data]([https://canvas.unc.edu/](https://canvas.unc.edu/)) course  taught in Spring 2025 by Sean Yuji Sylvia and Sudhanshu (Ashu) Handa.  
 
-### Quick links to topics
+## Quick links to topics
 
 | Day | Date      | Instructor | Topic |
 |:---:|:----------|:-----------|:------|
@@ -31,7 +29,7 @@ This repository contains the class materials for the [HPM 883 - Analysis of Cate
 
 
 
-### Overview
+## Overview
 
 HPM 883 is an advanced graduate-level course designed to equip PhD students in the Health Policy and Management program with sophisticated quantitative research skills. This course represents the third installment in the quantitative methods sequence, building on the foundational knowledge acquired in previous courses.
 
@@ -42,26 +40,23 @@ To facilitate a deep and practical understanding of these complex topics, HPM 88
 This interactive approach not only fosters a collaborative learning environment but also ensures that students are well-prepared to employ advanced quantitative methods in their own research. By the end of the course, participants will have developed a robust skill set, enabling them to confidently tackle intricate analytical challenges in health policy and management research.
 
 
-### Objectives
-
-This course aims to provide an 
-
-## Course Format
+Course Format
 
 Flipped classroom – Recorded lectures and readings to be completed outside of class; in-class sessions focused on practical data analysis.
 
 See the [Canvas site for HPM883](https://canvas.unc.edu/) for class lists, Zoom links, and announcements.
 
-### Prerequisites
+## Prerequisites
 
 Successful completion of prior courses (HPM 881, HPM 882) in the quantitative methods sequence or permission from the instructor.
 
-### Preparing for the course
+Preparing for the course
 
 You will need R for this course. You will need to download and install 
 - **Git**: [Install Git](https://git-scm.com/downloads)
 - **VS Code**: [Install VS Code](https://code.visualstudio.com/)
 - **Quarto**: [Install Quarto](https://quarto.org/docs/get-started/)
+- - **Jupyternotebook**: [Install Jupyternotebook](https://jupyter.org/install)
 - **R**: [Install R](https://cran.r-project.org/)
 -  on your computer.  
 
@@ -114,7 +109,7 @@ The following are supplemental texts which you may also find useful:
 Performance will be assessed through a combination of homework assignments, in-class exercises, a midterm project, and a final research paper wherein students apply the techniques learned to a health services research question of their choice.
 
 
-### Evaluation Method
+**Evaluation Method**
 
 | Component                                              | % of Grade |
 |--------------------------------------------------------|------------|
@@ -127,7 +122,7 @@ Performance will be assessed through a combination of homework assignments, in-c
 
 ---
 
-#### Assessment Details
+**Assessment Details**
 
  **Quizzes** (10% of Grade)
 - **Objective:** To assess students’ understanding of assigned readings, lecture material, and knowledge retention.
@@ -154,7 +149,7 @@ Performance will be assessed through a combination of homework assignments, in-c
 
 ---
 
-#### **In-Class Exercises** (10% of Grade)
+ **In-Class Exercises** (10% of Grade)
 - **Objective:** To provide hands-on practice with theoretical concepts in a collaborative learning environment.
 - **Structure**:
   - Short exercises conducted during lab sessions focusing on problem-solving and practical applications.
@@ -164,7 +159,7 @@ Performance will be assessed through a combination of homework assignments, in-c
 
 ---
 
-#### **Midterm Project** (25% of Grade)
+ **Midterm Project** (25% of Grade)
 - **Objective:** A practical application of methods covered in the first half of the course.
 - **Structure**:
   - Students will replicate a published study or analyze simulated data.
@@ -177,7 +172,7 @@ Performance will be assessed through a combination of homework assignments, in-c
 
 ---
 
-#### **Final Research Paper** (30% of Grade)
+ **Final Research Paper** (30% of Grade)
 - **Objective:** To apply the techniques learned throughout the course to a health services research question of the student’s choice.
 - **Structure**:
   - Students will identify a health services research topic, apply methods learned from class, and write a comprehensive research paper.
@@ -193,13 +188,12 @@ Performance will be assessed through a combination of homework assignments, in-c
   - Quality and clarity of writing.
   - Depth of discussion and interpretation of results.
 
-### **Pre-Module: Computer Setup**
+ **Pre-Class: Computer Setup**
 
 To ensure a seamless learning experience, please complete the following setup tasks before the course begins. This setup will allow you to effectively participate in in-class exercises and complete after-class assignments.
 
----
 
-#### **Step 1: GitHub Codespaces Setup (for After-Class Assignments)**
+ **Step 1: GitHub Codespaces Setup (for After-Class Assignments)**
 1. **Create a GitHub Account** (if you don’t already have one):
    - Sign up for a free account at [GitHub](https://github.com).
 2. **Enable GitHub Codespaces**:
@@ -212,9 +206,8 @@ To ensure a seamless learning experience, please complete the following setup ta
      - Click the green “Code” button and select “Open with Codespaces.”
 4. **Verify the Environment**:
    - Use template we provided in class
----
 
-#### **Step 2: Jupyter Notebook Setup (for In-Class Exercises)**
+ **Step 2: Jupyter Notebook Setup (for In-Class Exercises)**
 1. **Install Jupyter Notebook**:
    - For in-class exercise, ensure you have Jupyter Notebook installed:
      - Install Python 3.x from [Python.org](https://www.python.org).
@@ -232,24 +225,18 @@ To ensure a seamless learning experience, please complete the following setup ta
 3. **Load Sample Notebooks**:
    - Download the sample notebook provided in the course repository to familiarize yourself with the interface.
 
----
-
-#### **Step 3: Recommended Software**
+ **Step 3: Recommended Software**
 - **Text Editor** (optional but helpful):
   - Visual Studio Code (VS Code) with the Python extension is recommended for working on Python scripts or Jupyter notebooks locally.
   - Download it [here](https://code.visualstudio.com).
 - **Data Visualization Tools**:
   - Ensure your environment supports plotting libraries like Matplotlib and Seaborn for visualizing experimental results.
 
----
-
-#### **Step 4: Verification and Support**
+ **Step 4: Verification and Support**
 - **Test Your Setup**:
   - Complete the introductory lab provided in the course repository to verify your environment.
 - **Support**:
   - If you encounter issues, refer to the provided setup guide in the course repository or reach out to the course instructor/TA for assistance.
-
----
 
 This setup will allow you to:
 - Use **Codespaces** for submitting after-class assignments.
@@ -263,19 +250,23 @@ This setup will allow you to:
 #### Module 1. Overview and Introduction to Experimental Design
 
 
-#### Module Overview
+**Module Overview
+**
 This module introduces the foundational principles of experimental design, focusing on its role in causal inference within health services research. Key topics include understanding the structure of experiments, the importance of proper design, and hands-on application using computational tools.
 
----
 
-#### Learning Objectives
+
+** Learning Objectives
+**
+
 - Define the key components of experimental design and their significance in research.
 - Explain the role of experimental design in establishing causal relationships.
 - Apply experimental design principles using Jupyter Notebook.
 
 ---
 
-#### Pre-Class Preparation
+** Pre-Class Preparation
+** 
 - **Lecture Videos**:
   - [Lecture Video](lecturevideo/video1.wav)
   - Introduction to experimental design and causal inference.
@@ -288,7 +279,8 @@ This module introduces the foundational principles of experimental design, focus
 
 ---
 
-#### In-Class Sessions
+**In-Class Sessions
+**
 - **Brief Review**:
   - Address common questions and issues identified from the pre-class quiz.
 - **Short Lecture**:
@@ -301,7 +293,8 @@ This module introduces the foundational principles of experimental design, focus
 
 ---
 
-#### Post-Class Assignments
+** Post-Class Assignments
+** 
 - **Quiz**:
   - Follow-up quiz on experimental design concepts, reinforcing in-class content.
 - **Problem Set**:
@@ -313,51 +306,10 @@ This module introduces the foundational principles of experimental design, focus
 
 ---
 
-#### Additional Resources
+**Additional Resources
+**
 - Tutorials on experimental design principles.
 - Case studies of experimental designs in health services research.
 
-#### 12. Data from the web
 
-APIs. Web scraping. Ethics. 
 
-##### Resources
-
-* <a href = 'lecturenotes/lecture_12.html'>Lecture Notes</a>
-* [Lab 12 materials](https://lse-me314.github.io/assignment12/)
-
-<!---- * Lab 12 solution [as RMarkdown](https://lse-me314.github.io/solutions/ME314_assignment12_solution.Rmd) or [as HTML](https://lse-me314.github.io/solutions/ME314_assignment12_solution.html). ---->
-
-<!---
-##### Recommended Reading:
-
-* Broniatowski, David A, Michael J Paul, and Mark Dredze. 2013. "National and Local Influenza Surveillance Through Twitter: an Analysis of the 2012-2013 Influenza Epidemic" _PLoS ONE_ 8(12): 83672–78. [PDF here](day11/Broniatowski.pdf)
-* Barbera, Pablo., 2017. [``Less is more? How demographic sample weights can improve public opinion estimates based on Twitter data.''](http://pablobarbera.com/static/less-is-more.pdf) _Working Paper_
-* Munger, Kevin., 2017. [``Tweetment Effects on the Tweeted: Experimentally Reducing Racist Harassment''](https://link.springer.com/article/10.1007%2Fs11109-016-9373-5) _Political Behaviour_ 39(3): 629-649
-* Ginsberg et al., 2008. [``Detecting influenza epidemics using search engine query data''](https://www.nature.com/articles/nature07634) _Nature_ 457: 1012–1014.
-* Lazer et al., 2014. [``The Parable of Google Flu: Traps in Big Data Analysis''](http://science.sciencemag.org/content/343/6176/1203.full) _Science_ 343: 1203-1205
-* [Earthquake shakes Twitter users: real-time event detection by social sensors](http://www.ymatsuo.com/papers/www2010.pdf
- )
-* http://rcrastinate.blogspot.co.uk/2015/02/mapping-world-with-tweets-including-gif.html
-* https://github.com/pablobarbera/streamR
-* Matthew Russell (2013). _Mining the Social Web_. O'Reilly Media. 2nd edition.
-
---->
-
-<!---
-##### To use the `rtweet` package in R:
-* [`rtweet` vignette](https://github.com/mkearney/rtweet)
-* Twitter Authentication setup:
-    + [Official](https://dev.twitter.com/oauth/overview/application-owner-access-tokens)
-    + [Walkthrough](https://rtweet.info/articles/auth.html)  
-* Twitter API documentation:
-    + [Overview of REST API](https://dev.twitter.com/rest/public)
-    + [Overview of streaming API](https://dev.twitter.com/streaming/overview)
-
---->
-
-[](./data/covid_country_data.csv)
-[](./data/ess.csv)
-[](./data/const-econ-vars.csv)
-
-***
