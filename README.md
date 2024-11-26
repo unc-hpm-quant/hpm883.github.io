@@ -12,7 +12,7 @@ TAs
 Class Websites
 
 * Canvas page [here](https://canvas.unc.edu/)
-* GitHub Classroom  [here](https://canvas.unc.edu/)
+* GitHub Classroom  [here](https://classroom.github.com/classrooms/128099677-hpm-883)
 
 Slack
 
